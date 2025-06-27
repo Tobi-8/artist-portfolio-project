@@ -1,0 +1,88 @@
+body {
+  font-family: cormorant;
+}
+
+/* the navigation section */
+.navbar{
+    margin: 32px;
+
+}
+h1 {
+    margin: 0 32px 0 0 ;
+    font-weight:300 ;
+  display: inline-block;
+}
+h1:hover{
+    text-shadow:2px 4px 5px grey ;
+    transition: 0.5s;
+}
+.links {
+  display: inline-block;
+}
+.links > ul{
+    padding:0;
+}
+.links > ul > li {
+  display: inline-block;
+}
+.links > ul > li > a {
+  margin: 0 8px;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+.links > ul > li > a:hover {
+  background-color: grey;
+  transition: 0.5s;
+  border-radius: 5px;
+  color: white;
+}
+/* the image section */
+.gallery{
+    padding: 16px;
+}
+.card{
+    width: 49.75%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.card > h2{
+    display: inline-block;
+    font-weight: 3 00;
+    margin: 8px 0 16px 0;
+}
+.card>img{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+.card > img:hover{
+  opacity: 0.9;
+}
+/* the footer section(the about section) */
+.about{
+  width: 40%;
+  min-width: 600px; 
+  margin: 100px 0 100px 200px;
+}
+.about > h3{
+  font-size: 40px;
+  font-weight: 300;
+}
+.about > .underline{
+  border-bottom: 1px solid black;
+  padding-bottom: 8px ;
+  margin-top:0 ;
+  display: inline-block;
+  
+}
+.contact{
+  margin-top:100px ;
+}
+.contact > p{
+  margin: 0;
+  font-size: 20px;
+}
+
